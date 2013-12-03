@@ -13,14 +13,15 @@
         nope: <%= stylesheet_filenames(:desktop).inspect.html_safe %>,
         complete: function() {
           $(function() {
-            if (isMobileView) {
-              $('#custom-mobile-header').show();
-            } else {
-              $('#custom-desktop-header').show();
-            }
-            var body = h.getElementsByTagName('body')[0];
-            body.className = body.className.replace(/(\s|^)css-loading(\s|$)/g, ' ');
-            $(window).trigger('scroll.discourse-dock');
+            setTimeout(function() {
+              if (isMobileView) {
+                $('#custom-mobile-header').show();
+              } else {
+                $('#custom-desktop-header').show();
+              }
+              $('body').attr('style', '');
+              $(window).trigger('scroll.discourse-dock');
+            }, 1);
           });
         }
       });

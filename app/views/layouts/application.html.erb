@@ -23,16 +23,12 @@
     <%= render :partial => "common/discourse_stylesheet" %>
     <%= render :partial => "common/special_font_face" %>
 
-    <style>
-      body.css-loading #js-app { visibility: hidden; }
-    </style>
-
     <%= discourse_csrf_tags %>
 
     <%= yield :head %>
   </head>
 
-  <body class="css-loading">
+  <body style="visibility: hidden;">
     <!--[if IE 9]><script type="text/javascript">ie = "new";</script><![endif]-->
 
     <div id="js-app">

@@ -323,9 +323,10 @@ de:
           other: "nach {{count}} Minuten"
 
       invited:
+        search: "suchen..."
         title: "Einladungen"
         user: "Eingeladene Benutzer"
-        none: "{{username}} hat keine Nutzer eingeladen."
+        none: "Keine Einladung gefunden"
         redeemed: "Angenommene Einladungen"
         redeemed_at: "Angenommen vor"
         pending: "Offene Einladungen"
@@ -336,6 +337,7 @@ de:
         time_read: "Lesezeit"
         days_visited: "Tage der Anwesenheit"
         account_age_days: "Alter des Nutzerkontos in Tagen"
+        create: Neue Einladung zu diesem Forum
 
       password:
         title: "Passwort"
@@ -725,6 +727,7 @@ de:
         action: 'Einladung senden'
         help: 'Sendet Freunden eine Einladung, so dass mit einem Klick auf dieses Thema antworten können.'
         to_topic: "Wir schicken deiner Freundin / deinem Freund eine kurze Mail, die es mit einem Klick erlaubt, auf dieses Thema zu antworten."
+        to_forum: "Wir schicken eine kurze Email mit einem Link zur Registration für dieses Forum."
         email_placeholder: 'Mailadresse'
         success: "Danke! Wir haben deine Einladung an <b>{{email}}</b> verschickt. Wir lassen Dich wissen, sobald die Einladung eingelöst wird. In deinem Nutzerprofil kannst Du alle deine Einladungen überwachen."
         error: "Entschuldige, wir konnten diese Person nicht einladen. Vielleicht ist sie schon ein Nutzer?"

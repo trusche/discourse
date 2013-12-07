@@ -747,11 +747,22 @@ de:
     text_body_template: |
       %{invitee_name} lädt Dich zum Thema "%{topic_title}" auf %{site_name} ein.
 
-      Bei Interesse, klicke auf den folgenden Link, um die Diskussion zu besuchen:
+      Bei Interesse klicke auf den folgenden Link, um die Diskussion zu besuchen:
 
-      [Visit %{site_name}][1]
+      [%{site_name}][1]
 
       Du wurdest von einem vertrauenswürdigen Nutzer eingeladen, so dass Du direkt, ohne vorherige Anmeldung, antworten kannst.
+
+      [1]: %{invite_link}
+
+  invite_forum_mailer:
+    subject_template: "[%{site_name}] %{invitee_name} hat Dich zu %{site_name} eingeladen"
+    text_body_template: |
+      %{invitee_name} hat Dich eingeladen zu %{site_name}.
+
+      Wenn Du interessiert bist, klicke auf den folgenden Link, um das Forum zu besuchen:
+
+      [%{site_name}][1]
 
       [1]: %{invite_link}
 

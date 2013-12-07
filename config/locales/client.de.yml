@@ -297,6 +297,7 @@ de:
 
       email_direct: "Schicke eine Mail, wenn jemand mich zitiert, auf meine Beiträge antwortet oder meinen @Namen erwähnt."
       email_private_messages: "Schicke eine Mail, wenn jemand mir eine private Nachricht sendet."
+      email_always: "Schicke Emails mit Benachrichtigungen und Neuigkeiten, auch wenn ich selber auf dem Forum aktiv bin."
 
       other_settings: "Sonstiges"
 

@@ -182,6 +182,17 @@ de:
       "12": "Gesendet"
       "13": "Eingänge"
 
+    categories:
+      all: "alle Kategorien"
+      only_category: "nur {{categoryName}}"
+      category: "Kategorie"
+      posts: "Beiträge"
+      topics: "Themen"
+      latest: "Aktuell"
+      latest_by: "Aktuell seit"
+      toggle_ordering: "Sortierkontrolle ändern"
+      subcategories: "Sub-Kategorien:"
+
     user:
       said: "{{username}} sagte:"
       profile: Profil
@@ -713,7 +724,7 @@ de:
         title: 'Freunde zum Gespräch einladen'
         action: 'Einladung senden'
         help: 'Sendet Freunden eine Einladung, so dass mit einem Klick auf dieses Thema antworten können.'
-        email: "Wir schicken deiner Freundin / deinem Freund eine kurze Mail, die es mit einem Klick erlaubt, auf dieses Thema zu antworten."
+        to_topic: "Wir schicken deiner Freundin / deinem Freund eine kurze Mail, die es mit einem Klick erlaubt, auf dieses Thema zu antworten."
         email_placeholder: 'Mailadresse'
         success: "Danke! Wir haben deine Einladung an <b>{{email}}</b> verschickt. Wir lassen Dich wissen, sobald die Einladung eingelöst wird. In deinem Nutzerprofil kannst Du alle deine Einladungen überwachen."
         error: "Entschuldige, wir konnten diese Person nicht einladen. Vielleicht ist sie schon ein Nutzer?"
@@ -1340,5 +1351,19 @@ de:
         title: 'Einstellungen'
         reset: 'Zurücksetzen'
         none: "Keine"
-
-
+        no_results: "Keine Ergebnisse."
+        categories:
+          all_results: 'Alle'
+          required: 'Erforderlich'
+          basic: 'Grundeinstellungen'
+          users: 'Benutzer'
+          posting: 'Beiträge'
+          email: 'Email'
+          files: 'Dateien'
+          trust: 'Stufen'
+          security: 'Sicherheit'
+          seo: 'SEO'
+          spam: 'Spam'
+          rate_limits: 'Rate Limits'
+          developer: 'Entwickler'
+          uncategorized: 'Nicht kategorisiert'

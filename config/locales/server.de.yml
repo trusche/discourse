@@ -459,6 +459,7 @@ de:
     discourse_org_access_key: "Der Zugangscode für das Discourse Hub Benutzernamensregister auf discourse.org"
     educate_until_posts: "Zahl der Beiträge, die ein Nutzer verfassen muss, damit kein Hilfetext beim Erstellen von Themen und Beiträgen eingeblendet wird."
     title: "Seitentitel, der im Title-Tag und an anderen Stellen verwendet wird."
+    site_description: "Allgemeine Beschreibung des Diskussionsforums"
     contact_email: "Die Mail von jemandem der für die Seite zuständig ist. Wichtige Nachrichten von Discourse.org betreffend kritischen Sicherheitsupdates werden an diese Adresse gesendet."
     company_full_name: "Voller Name des Unternehmens, das diese Seite betreibt. Wird in rechtlich relevanten Dokumenten wie den Nutzungsbestimmungen (/tos) verwendet."
     company_short_name: "Kurzname des Unternehmens, das diese Seite betreibt. Wird in rechtlich relevanten Dokumenten wie den Nutzungsbestimmungen (/tos) verwendet."
@@ -627,6 +628,7 @@ de:
     min_body_similar_length: "Minimale Länge eines Beitragstextes, bevor nach ähnlichen Themen gesucht wird."
 
     category_colors: "Eine durch senkrechte Striche getrennte Liste hexadezimaler Farbwerte, die als Kategoriefarben erlaubt sind."
+    enable_wide_category_list: "Traditionelle Kategorienliste in voller Breite ermöglichen"
     max_image_size_kb: "Maximale Größe in Kilobytes (kB), die von Benutzern hochgeladene Bilder groß sein dürfen. Stelle sicher, dass dieser Wert auch in nginx (client_max_body_size) / Apache und Proxies konfiguriert ist."
     max_attachment_size_kb: "Maximale Größe in Kilobytes (kB), die von Benutzern hochgeladenen Dateien groß sein dürfen. Stelle sicher, dass dieser Wert auch in nginx (client_max_body_size) / Apache und Proxies konfiguriert ist."
     authorized_extensions: "Eine Pipe-getrennte (|) Liste von Dateiendungen welche hochgeladen werden dürfen."
@@ -664,6 +666,9 @@ de:
     allow_uploaded_avatars: "Erlaube das Hochladen eines eigenen Avatars"
     allow_animated_avatars: "Erlaube den Benutzern animierte GIFs als Avatar zu benutzen"
     default_digest_email_frequency: "Wie oft man Zusammenfassungen per Mail standardmässig erhält. Diese Einstellung kann von jedem geändert werden."
+
+    enable_names: "Benutzer können ihren vollen Namen anzeigen"
+    display_name_on_posts: "Auch den vollen Namen des Benutzers mit den Beiträgen anzeigen"
 
   notification_types:
     mentioned: "%{display_username} hat Dich in %{link} erwähnt."

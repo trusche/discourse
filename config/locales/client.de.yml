@@ -226,7 +226,7 @@ de:
         success: "(Mail gesendet)"
         in_progress: "(sende Mail)"
         error: "(Fehler)"
-        action: "Passwort zurücksetzten Mail senden"
+        action: "Passwort zurücksetzen (per Email)"
 
       change_about:
         title: "Über mich ändern"

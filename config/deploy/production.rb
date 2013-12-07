@@ -1,5 +1,4 @@
 set :stage, :production
-set :branch, 'albertina'
 
 # Simple Role Syntax
 # ==================

@@ -1,5 +1,6 @@
 set :application, 'albertina'
 set :repo_url, 'git@github.com:trusche/discourse.git'
+set :branch, 'albertina'
 
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }
 
@@ -11,7 +12,7 @@ set :format, :pretty
 # set :pty, true
 
 set :linked_files, %w{config/database.yml config/redis.yml}
-set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
+set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system public/uploads}
 
 # set :default_env, { path: "/opt/ruby/bin:$PATH" }
 set :keep_releases, 10
